@@ -1,0 +1,11 @@
+
+/* preview page */
+body:not(.font-family-change-to-default) .markdown-preview-view.is-readable-line-width .markdown-preview-section,
+body:not(.font-family-change-to-default) .markdown-source-view.is-readable-line-width .CodeMirror,
+body:not(.font-family-change-to-default) .markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+body:not(.font-family-change-to-default) .markdown-preview-view .markdown-preview-section,
+body:not(.font-family-change-to-default) .markdown-source-view .CodeMirror,
+body:not(.font-family-change-to-default) .markdown-preview-view .markdown-preview-sizer,
+body:not(.font-family-change-to-default) .markdown-source-view.mod-cm6 .cm-scroller {
+line-height: 2;
+}

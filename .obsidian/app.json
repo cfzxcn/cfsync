@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "attachment",
+  "propertiesInDocument": "visible",
+  "showLineNumber": true,
+  "vimMode": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Linux",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "strictLineBreaks": true
+}

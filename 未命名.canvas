@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"62cc946cc7ccbbe7","x":-220,"y":-160,"width":120,"height":60,"type":"text","text":"服务端"},
+		{"id":"780371c5a295e0cd","x":-480,"y":-35,"width":96,"height":75,"type":"text","text":"客户端"},
+		{"id":"cfef34e7e3091992","x":-220,"y":-30,"width":100,"height":70,"type":"text","text":""},
+		{"id":"f93cb3064c2dde85","type":"text","text":"","x":-220,"y":100,"width":100,"height":70}
+	],
+	"edges":[
+		{"id":"f7da04f37d224150","fromNode":"780371c5a295e0cd","fromSide":"right","toNode":"62cc946cc7ccbbe7","toSide":"left"},
+		{"id":"e3998a0504a711f9","fromNode":"cfef34e7e3091992","fromSide":"left","toNode":"780371c5a295e0cd","toSide":"right"},
+		{"id":"5918f8fa655fbedc","fromNode":"f93cb3064c2dde85","fromSide":"left","toNode":"780371c5a295e0cd","toSide":"right"}
+	]
+}

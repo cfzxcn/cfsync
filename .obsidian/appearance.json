@@ -1,0 +1,12 @@
+{
+  "accentColor": "#2c6ace",
+  "theme": "system",
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 19,
+  "monospaceFontFamily": "Inconsolate,Microsoft YaHei",
+  "nativeMenus": true,
+  "interfaceFontFamily": "思源宋体",
+  "enabledCssSnippets": [
+    "cf"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"d0370b0856892549","type":"text","text":"老太太","x":-360,"y":-140,"width":123,"height":50},
+		{"id":"da21bfcffd1bd744","type":"text","text":"old","x":-60,"y":80,"width":103,"height":50}
+	],
+	"edges":[
+		{"id":"a0e8011a1e53de14","fromNode":"d0370b0856892549","fromSide":"bottom","toNode":"da21bfcffd1bd744","toSide":"left"},
+		{"id":"e59185aa05c51d78","fromNode":"da21bfcffd1bd744","fromSide":"top","toNode":"d0370b0856892549","toSide":"right"}
+	]
+}

@@ -1,0 +1,72 @@
+/* 选择器，用于限定样式的作用范围，:not(……)表示不作用的例外情况 */
+.cm-content >.cm-line:not( /* 应用于所有正文中的段落 */
+  .HyperMD-codeblock,      /* 不应用于代码块*/
+  .HyperMD-list-line)       /*不应用于列表 */
+
+  /*以下是样式代码，em代表相对于字号的大小，例如0.5em表示字体的一半大*/
+  /*可更换为其他单位，例如px，rem等 */
+{
+    /*margin-top: 0.5em !important ;  /* 段前间距 */
+    margin-bottom: 0.5em !important ;  /* 段后间距 */
+	/*padding-top: 0.5em;  /* 段前间距（内边距）  */
+	/*padding-bottom: 0.5em; /* 段后间距（内边距） */
+}
+
+/* preview page */
+body:not(.font-family-change-to-default) .markdown-preview-view.is-readable-line-width .markdown-preview-section,
+body:not(.font-family-change-to-default) .markdown-source-view.is-readable-line-width .CodeMirror,
+body:not(.font-family-change-to-default) .markdown-preview-view.is-readable-line-width .markdown-preview-sizer,
+body:not(.font-family-change-to-default) .markdown-preview-view .markdown-preview-section,
+body:not(.font-family-change-to-default) .markdown-source-view .CodeMirror,
+body:not(.font-family-change-to-default) .markdown-preview-view .markdown-preview-sizer,
+body:not(.font-family-change-to-default) .markdown-source-view.mod-cm6 .cm-scroller {
+line-height: 1.85;
+}
+body {
+  --font-bold: bold;
+  /* --text-normal: hsl(var(232), 12%, 12%); */
+
+  /* 字体大小 */
+  --h1-size: calc(var(--font-text-size) * 1.7);
+  --h2-size: calc(var(--font-text-size) * 1.4);
+  --h3-size: calc(var(--font-text-size) * 1.2);
+  --h4-size: calc(var(--font-text-size) * 1.1);
+  --h5-size: calc(var(--font-text-size) * 1.1);
+  --h6-size: calc(var(--font-text-size) * 1.1);
+}
+
+
+/* 大纲等级符号#居右 */
+.cm-formatting.cm-header {
+  position: absolute;
+  right: 0em;
+  opacity: 0.5;
+  color: inherit;
+}
+/* 关闭ob中的首行缩进，而用这里代码的方式实现，原因是ob中设置首行缩进后，代码块中也会缩进*/
+/* cm-line:not(.HyperMD-header,.HyperMD-codeblock)中的意思是：排除标题和代码块，这样其它会缩进 */
+div.cm-line:not(.HyperMD-header,.HyperMD-codeblock) {
+  text-indent: 2em;
+}
+.markdown-preview-view div p {
+  text-indent: 2em;
+}
+
+
+/*自定义粗体，或者加粗的字体粗细和样式颜色*/
+body {
+    --bold-color:blue;
+    --bold-weight:1000;
+
+div.cm-line span.cm-strong {
+	color: rgba(255,69,0,1)!important; /* 橙红色 */;
+	font-weight: var(--bold-weight)!important;
+  background-color: #f0f0f0; /* 淡灰色背景 */
+}
+
+div p strong {
+	color: var(--bold-color) !important;
+	font-weight: var(--bold-weight)!important;
+}
+}
+
