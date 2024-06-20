@@ -69,8 +69,8 @@ remote:       —— Google OAuth Client ID ————————————
 remote:        locations:
 remote:          - commit: 8eacba4899916e62b2b8ff24899122358e51ceb3
 remote:            path: .obsidian/plugins/remotely-save/main.js:90
-
-修改：G:\OneDrive\cfsync\.gitignore，追加一条：.obsidian/plugins/remotely-save
+......
+修改：G:\OneDrive\cfsync\.gitignore，追加一条：.obsidian/plugins/remotely-save/
 ```
 然后就自动push了，成功！
 

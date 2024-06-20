@@ -195,10 +195,6 @@
     {
       "basename": "06安全相关技术",
       "path": "Linux/06安全相关技术.md"
-    },
-    {
-      "basename": "02实现私人定制linux",
-      "path": "Linux/02实现私人定制linux.md"
     }
   ],
   "omittedPaths": [],
