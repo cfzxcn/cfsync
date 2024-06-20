@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operater system install/win10和ub22-desktop双系统.md",
+                "file": "git/github同步obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "operater system install/win10和ub22-desktop双系统.md",
+                "file": "git/github同步obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "operater system install/win10和ub22-desktop双系统.md",
+                "file": "git/github同步obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "operater system install/win10和ub22-desktop双系统.md"
+                "file": "git/github同步obsidian.md"
               }
             }
           },
@@ -232,11 +232,19 @@
       "excalidraw-cn:Create New Excalidraw File": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "templater-obsidian:Templater": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "5f63ea892449049d",
   "lastOpenFiles": [
+    "attachment/Pasted image 20240620101114.png",
+    "attachment/Pasted image 20240620100150.png",
+    "attachment/Pasted image 20240620100122.png",
+    "attachment/Pasted image 20240620095917.png",
+    "attachment/Pasted image 20240620095824.png",
+    "git/gitee同步obsidian.md",
+    "git/github同步obsidian.md",
     "operater system install/win10和ub22-desktop双系统.md",
     "新建文本文档.txt",
     "attachment/4e6da4b0ba248e78a05d5e4c82b620dc_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVIb25naHU=,size_16,color_FFFFFF,t_70.png",
@@ -252,15 +260,10 @@
     "pxe/03 非co6生成 grubx64.efi和grub.cfg.md",
     "pxe/06 ks语法.md",
     "attachment/Pasted image 20240619215134.png",
-    "git/gitee同步obsidian.md",
     "attachment/Pasted image 20240618050515.png",
-    "attachment/Pasted image 20240618050455.png",
     "分布式（存储）文件系统/未命名思维导图.md",
-    "operater system install/win10和ub22-server双系统.assets/image-20240618030443629.png",
     "operater system install/win10和ub22-server双系统.assets",
-    "operater system install/Pasted image 20240615200321.png",
     "operater system install/Ubuntu-22.04.4-deskto安装.md",
-    "attachment/Pasted image 20240617210033.png",
     "operater system install/ubuntu22.04使用.md",
     "Elasticsearch/Kibana-ES客户端.md",
     "分布式（存储）文件系统/06-基于Kubenets部署Minio.md",
@@ -273,7 +276,6 @@
     "clickhouse/各系统中hash校验.md",
     "Elasticsearch/02 linux单节点和非https集群部署.md",
     "Elasticsearch/01 ES 系统通用配置.md",
-    "Elasticsearch/00 概念及elasticsearch.yml详解.md",
     "git",
     "未命名.canvas",
     "分布式（存储）文件系统",

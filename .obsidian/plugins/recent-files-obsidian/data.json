@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "github同步obsidian",
+      "path": "git/github同步obsidian.md"
+    },
+    {
+      "basename": "gitee同步obsidian",
+      "path": "git/gitee同步obsidian.md"
+    },
+    {
       "basename": "win10和ub22-desktop双系统",
       "path": "operater system install/win10和ub22-desktop双系统.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "06 ks语法",
       "path": "pxe/06 ks语法.md"
-    },
-    {
-      "basename": "gitee同步obsidian",
-      "path": "git/gitee同步obsidian.md"
     },
     {
       "basename": "Ubuntu-22.04.4-deskto安装",
@@ -195,10 +199,6 @@
     {
       "basename": "02实现私人定制linux",
       "path": "Linux/02实现私人定制linux.md"
-    },
-    {
-      "basename": "05systemd",
-      "path": "Linux/05systemd.md"
     }
   ],
   "omittedPaths": [],

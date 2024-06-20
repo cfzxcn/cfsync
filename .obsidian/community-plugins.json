@@ -13,5 +13,7 @@
   "templater-obsidian",
   "typewriter-mode",
   "remotely-save",
-  "obsidian-git"
+  "obsidian-git",
+  "git-file-explorer",
+  "github-sync"
 ]
