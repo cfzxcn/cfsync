@@ -72,7 +72,7 @@ remote:            path: .obsidian/plugins/remotely-save/main.js:90
 ......
 修改：G:\OneDrive\cfsync\.gitignore，追加一条：.obsidian/plugins/remotely-save/
 ```
-然后就自动push了，成功！
+~~然后就自动push了，成功！~~
 
  
 
