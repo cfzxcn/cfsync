@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pxe/01 TFTP服务.md",
+                "file": "pxe/00 pxe-服务器和虚拟机无人值守批量部署教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pxe/05 服务端安装配置httpd及nfs.md",
+                "file": "pxe/04 grub2菜单设置及美化.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/gitee同步obsidian.md",
+                "file": "operater system install/win10和ub22-desktop双系统.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
-    "collapsed": true
+    "width": 334.5
   },
   "right": {
     "id": "9562446895f86731",
@@ -151,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/gitee同步obsidian.md",
+                "file": "operater system install/win10和ub22-desktop双系统.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/gitee同步obsidian.md",
+                "file": "operater system install/win10和ub22-desktop双系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/gitee同步obsidian.md"
+                "file": "operater system install/win10和ub22-desktop双系统.md"
               }
             }
           },
@@ -239,21 +238,29 @@
   "active": "5f63ea892449049d",
   "lastOpenFiles": [
     "operater system install/win10和ub22-desktop双系统.md",
-    "git/gitee同步obsidian.md",
+    "新建文本文档.txt",
+    "attachment/4e6da4b0ba248e78a05d5e4c82b620dc_watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVIb25naHU=,size_16,color_FFFFFF,t_70.png",
     "operater system install/win10和ub22-server双系统.md",
+    "pxe/04 grub2菜单设置及美化.md",
+    "pxe/00 pxe-服务器和虚拟机无人值守批量部署教程.md",
+    "pxe/01 TFTP服务.md",
+    "pxe/05 服务端安装配置httpd及nfs.md",
+    "pxe/03 CO7中PXE自动安装uefi的Ubuntu Server.md",
+    "attachment/Pasted image 20240620040921.png",
+    "attachment/Pasted image 20240620014501.png",
+    "attachment/Pasted image 20240620013638.png",
+    "pxe/03 非co6生成 grubx64.efi和grub.cfg.md",
+    "pxe/06 ks语法.md",
+    "attachment/Pasted image 20240619215134.png",
+    "git/gitee同步obsidian.md",
+    "attachment/Pasted image 20240618050515.png",
+    "attachment/Pasted image 20240618050455.png",
     "分布式（存储）文件系统/未命名思维导图.md",
     "operater system install/win10和ub22-server双系统.assets/image-20240618030443629.png",
     "operater system install/win10和ub22-server双系统.assets",
     "operater system install/Pasted image 20240615200321.png",
     "operater system install/Ubuntu-22.04.4-deskto安装.md",
     "attachment/Pasted image 20240617210033.png",
-    "attachment/Pasted image 20240617205154.png",
-    "attachment/Pasted image 20240617204539.png",
-    "attachment/Pasted image 20240617202327.png",
-    "attachment/Pasted image 20240617200701.png",
-    "attachment/Pasted image 20240617200531.png",
-    "attachment/Pasted image 20240617194933.png",
-    "attachment/Pasted image 20240617194759.png",
     "operater system install/ubuntu22.04使用.md",
     "Elasticsearch/Kibana-ES客户端.md",
     "分布式（存储）文件系统/06-基于Kubenets部署Minio.md",
@@ -262,20 +269,12 @@
     "operater system install/Ubuntu-20.04-live-server安装.md",
     "operater system install/openEuler-22.03-LTS-SP3.md",
     "operater system install/银河麒麟高级服务器操作系统V10-AMD64版.md",
-    "pxe/03 CO7中PXE自动安装uefi的Ubuntu Server.md",
-    "pxe/06 ks语法.md",
-    "pxe/00 pxe-服务器和虚拟机无人值守批量部署教程.md",
-    "pxe/05 服务端安装配置httpd及nfs.md",
-    "pxe/01 TFTP服务.md",
     "pxe/02 安装和配置 DHCP 服务.md",
     "clickhouse/各系统中hash校验.md",
     "Elasticsearch/02 linux单节点和非https集群部署.md",
     "Elasticsearch/01 ES 系统通用配置.md",
     "Elasticsearch/00 概念及elasticsearch.yml详解.md",
-    "git/git使用.md",
     "git",
-    "git/ub22的playbook的git记录.md",
-    "分布式（存储）文件系统/01-FastDFS环境搭建及单机和集群部署.md",
     "未命名.canvas",
     "分布式（存储）文件系统",
     "Elasticsearch",
@@ -285,7 +284,6 @@
     "Excalidraw",
     "operater system install",
     "未命名 1.canvas",
-    "未命名 2.canvas",
-    "attachment"
+    "未命名 2.canvas"
   ]
 }

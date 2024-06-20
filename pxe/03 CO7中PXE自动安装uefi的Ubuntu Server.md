@@ -71,7 +71,7 @@ linux   /kernel/ub20/vmlinuz ip=dhcp url=http://192.168.1.3/iso/ub20/ubuntu-20.0
 ### 配置/var/www/html/ks/ub20/user-data
 确保目录 /var/www/html/ks/ub20/ 下的文件对所有人可读：
 chmod -R a+r /var/www/html/ks/ub20/
->注：在准备 cloud.init config 前。可以先手动安装一次 ubuntu 20.04，在 /var/log/installer/ 目录下会生成一个 autoinstall-user-data ，这是基于当前系统的应答文件，可以它为基础，根据实际情况进行修改。  /var/log/installer/autoinstall-user-data
+>注：在准备 cloud.init config 前。可以先手动安装一次 ubuntu 20.04（ub22 desktop没有此文件），在 /var/log/installer/ 目录下会生成一个 autoinstall-user-data ，这是基于当前系统的应答文件，可以它为基础，根据实际情况进行修改。  /var/log/installer/autoinstall-user-data
 #### 官方给出的cloud-init 配置：
 ```yaml
 mkdir -p ~/www

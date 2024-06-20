@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "gitee同步obsidian",
-      "path": "git/gitee同步obsidian.md"
-    },
-    {
       "basename": "win10和ub22-desktop双系统",
       "path": "operater system install/win10和ub22-desktop双系统.md"
     },
     {
       "basename": "win10和ub22-server双系统",
       "path": "operater system install/win10和ub22-server双系统.md"
+    },
+    {
+      "basename": "04 grub2菜单设置及美化",
+      "path": "pxe/04 grub2菜单设置及美化.md"
+    },
+    {
+      "basename": "00 pxe-服务器和虚拟机无人值守批量部署教程",
+      "path": "pxe/00 pxe-服务器和虚拟机无人值守批量部署教程.md"
+    },
+    {
+      "basename": "01 TFTP服务",
+      "path": "pxe/01 TFTP服务.md"
+    },
+    {
+      "basename": "05 服务端安装配置httpd及nfs",
+      "path": "pxe/05 服务端安装配置httpd及nfs.md"
+    },
+    {
+      "basename": "03 CO7中PXE自动安装uefi的Ubuntu Server",
+      "path": "pxe/03 CO7中PXE自动安装uefi的Ubuntu Server.md"
+    },
+    {
+      "basename": "03 非co6生成 grubx64.efi和grub.cfg",
+      "path": "pxe/03 非co6生成 grubx64.efi和grub.cfg.md"
+    },
+    {
+      "basename": "06 ks语法",
+      "path": "pxe/06 ks语法.md"
+    },
+    {
+      "basename": "gitee同步obsidian",
+      "path": "git/gitee同步obsidian.md"
     },
     {
       "basename": "Ubuntu-22.04.4-deskto安装",
@@ -49,26 +77,6 @@
       "path": "operater system install/银河麒麟高级服务器操作系统V10-AMD64版.md"
     },
     {
-      "basename": "03 CO7中PXE自动安装uefi的Ubuntu Server",
-      "path": "pxe/03 CO7中PXE自动安装uefi的Ubuntu Server.md"
-    },
-    {
-      "basename": "06 ks语法",
-      "path": "pxe/06 ks语法.md"
-    },
-    {
-      "basename": "00 pxe-服务器和虚拟机无人值守批量部署教程",
-      "path": "pxe/00 pxe-服务器和虚拟机无人值守批量部署教程.md"
-    },
-    {
-      "basename": "05 服务端安装配置httpd及nfs",
-      "path": "pxe/05 服务端安装配置httpd及nfs.md"
-    },
-    {
-      "basename": "01 TFTP服务",
-      "path": "pxe/01 TFTP服务.md"
-    },
-    {
       "basename": "02 安装和配置 DHCP 服务",
       "path": "pxe/02 安装和配置 DHCP 服务.md"
     },
@@ -103,14 +111,6 @@
     {
       "basename": "Flink CDC或Canal实现MySQL异构数据同步",
       "path": "clickhouse/Flink CDC或Canal实现MySQL异构数据同步.md"
-    },
-    {
-      "basename": "04 grub2菜单设置及美化",
-      "path": "pxe/04 grub2菜单设置及美化.md"
-    },
-    {
-      "basename": "03 非co6生成 grubx64.efi和grub.cfg",
-      "path": "pxe/03 非co6生成 grubx64.efi和grub.cfg.md"
     },
     {
       "basename": "dell t640  ubuntu22.04 no boot device available or",

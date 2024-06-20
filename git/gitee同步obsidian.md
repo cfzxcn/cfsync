@@ -1,3 +1,4 @@
+https://gitee.com/cfzxcn/obsidian
 # gitee新建仓库
 ```sh
 #### 简易的命令行入门教程:
@@ -13,11 +14,15 @@ touch README.md
 git add README.md
 git commit -m "first commit"
 git remote add origin git@gitee.com:cfzxcn/obsidian.git
+或
+git remote add origin https://gitee.com/cfzxcn/obsidian.git
 git push -u origin "master"
 
 已有仓库?
 cd existing_git_repo
 git remote add origin git@gitee.com:cfzxcn/obsidian.git
+或
+git remote add origin https://gitee.com/cfzxcn/obsidian.git
 git push -u origin "master"
 ```
 # 在OneDrive目录新建子目录cfsync
@@ -65,9 +70,33 @@ Untracked files:
         "\346\234\252\345\221\275\345\220\215.canvas"
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+cy@cy MINGW64 /g/onedrive/cfsync (master)
+$ git add .
+warning: in the working copy of '.obsidian/app.json', LF will be replaced by CRLF
+ the next time Git touches it
+ ......
+ 
+cy@cy MINGW64 /g/onedrive/cfsync (master)
+$ git commit -m "obsidian notes first commit"
+[master (root-commit) 8eacba4] obsidian notes first commit
+ 745 files changed, 268013 insertions(+)
+......
+
+cy@cy MINGW64 /g/onedrive/cfsync (master)
+$ git config --global user.name "cfzxcn"
+
+cy@cy MINGW64 /g/onedrive/cfsync (master)
+$ git config --global user.email "cfzxcn@126.com"
+
+cy@cy MINGW64 /g/onedrive/cfsync (master)
+$ git remote add origin https://gitee.com/cfzxcn/obsidian.git
+
+git push -u origin "master"
 ```
-
-
+![[Pasted image 20240618050515.png]]
+![[Pasted image 20240618050455.png]]
+首次提交成功！
 
 
 

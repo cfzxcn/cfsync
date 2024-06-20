@@ -68,7 +68,7 @@ GRUB_DISABLE_OS_PROBER=false     # 新增，Grub 2.06 不会自动探测其他�
 #GRUB_DEFAULT=0   # 修改GRUB_DEFAULT的值来调整启动时，默认系统选择  0:ubuntu  2 win
 GRUB_DEFAULT=saved    # 修改
 GRUB_SAVEDEFAULT=true   # 新增
-GRUB_TIMEOUT_STYLE=hidden   # 是否显示倒计时，hidden的属性表示不会显示倒计时
+GRUB_TIMEOUT_STYLE=hidden   # 是否显示倒计时，hidden的属性表示不会显示倒计时，注释掉该行则显示倒计时
 GRUB_TIMEOUT=10   # 修改，表示10s
 GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
 GRUB_CMDLINE_LINUX_DEFAULT=""
@@ -88,6 +88,18 @@ Adding boot menu entry for UEFI Firmware Settings ...
 done
 
 ```
+## grub 菜单美化
+https://www.gnome-look.org/browse?cat=109&page=40&ord=latest
+我喜欢的：
+blur-grub2_fullhd.tar，Sleek theme-bigSur.tar.xz（下图）
+![[Pasted image 20240620040921.png]]
+### CyberEXS-1.0.0.tar.gz，安装用法：
+不推荐，菜单文字能展示的太少，但安装方法值得记一下
+Download and extract Grub2-theme CyberEXS 1.0.0 .tar.gz
+Copy the "CyberEXS" folder with root privileges to /boot/grub/themes/
+Edit /etc/default/grub and add:
+GRUB_THEME=/boot/grub/themes/CyberEXS/theme.txt
+Update grub : # sudo update-grub
 ## 在Ubuntu中添加重启自动进入Windows系统功能
 ```sh
 sudo grub-reboot 2  

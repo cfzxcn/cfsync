@@ -4,7 +4,6 @@
   "obsidian-pandoc",
   "excalidraw-cn",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
   "recent-files-obsidian",
   "obsidian-style-settings",
   "obsidian-tasks-plugin",
@@ -13,5 +12,6 @@
   "dataview",
   "templater-obsidian",
   "typewriter-mode",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-git"
 ]
